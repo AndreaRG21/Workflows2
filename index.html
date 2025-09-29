@@ -1,31 +1,93 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Coffee Page</title>
+    <title>Cafetería Mimic</title>
     <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <header>
-      <h1>Coffee Co.</h1>
-    </header>
+    <!-- NAVBAR -->
+    <nav id="navbar">
+      <ul>
+        <li><a href="#welcome-section">Inicio</a></li>
+        <li><a href="#projects">Menú</a></li>
+        <li><a href="#contact">Contacto</a></li>
+      </ul>
+    </nav>
 
-    <section id="hero">
-      <h2>Welcome to Coffee Co.</h2>
-      <p>Best coffee in town.</p>
+    <!-- WELCOME SECTION -->
+    <section id="welcome-section">
+      <h1>Bienvenido a Cafetería Mimic</h1>
+      <p>El mejor café para comenzar tu día</p>
+    </section>
+
+    <!-- MENU -->
+    <section id="projects">
+      <h2>Nuestro Menú</h2>
+      <div class="projects-grid">
+        <div class="project-tile">
+          <img
+            src="https://cdn.sanity.io/images/dzgbspgu/production/6b84245898bfe8da31e27675dabd32dc5b72456e-820x820.webp"
+            alt="Café Americano"
+          />
+          <p>Café Americano</p>
+        </div>
+
+        <div class="project-tile">
+          <img
+            src="https://i0.wp.com/monyur.com/wp-content/uploads/2020/10/Por-que-se-llama-cafe-capuchino-1.jpg"
+            alt="Capuccino"
+          />
+          <p>Capuccino</p>
+        </div>
+
+        <div class="project-tile">
+          <img
+            src="https://atdtogo.sg/cdn/shop/products/ATD_CafeLatte_01_3b077121-2fb7-4058-8dac-fd1cc97ef282_1080x.jpg?v=1587770572"
+            alt="Latte"
+          />
+          <p>Latte</p>
+        </div>
+
+        <div class="project-tile">
+          <img
+            src="https://www.suqiee.com.mx/wp-content/uploads/2022/12/instagram-pastel-de-chocolate-1.jpg"
+            alt="Pastel de Chocolate"
+          />
+          <p>Pastel de Chocolate</p>
+        </div>
+
+        <div class="project-tile">
+          <img
+            src="https://cuina.com.mx/wp-content/uploads/2020/12/Mant.-600x600.jpg"
+            alt="Croissant"
+          />
+          <p>Croissant</p>
+        </div>
+
+        <div class="project-tile">
+          <img
+            src="https://static01.nyt.com/images/2021/09/01/dining/27Appe1-esp-1/27Appe1-mediumSquareAt3X.jpg"
+            alt="Tarta de Fresa"
+          />
+          <p>Tarta de Fresa</p>
+        </div>
+      </div>
     </section>
 
     <section id="about-us">
       <h2>About Us</h2>
-      <p>
-        We are a group of passionate students building this project with GitFlow
-        🚀
-      </p>
+      <p>We are passionate about coffee and our community.</p>
     </section>
 
+    <!-- FOOTER -->
     <footer>
-      <p>&copy; coffee Co. 2025</p>
+      <p>© 2025 Cafetería Mimic. Todos los derechos reservados.</p>
     </footer>
   </body>
 </html>
